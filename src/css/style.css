@@ -1,6 +1,7 @@
 .titulo{
     font-size: 3rem;
     text-align: center;
+    height: 8vh;
 }
 
 .subtitulo{
@@ -17,7 +18,7 @@
 .recapitulando{
     padding: 10px;
     background-color: rgba(123,104,238, 2);
-    height: 20vh;
+    height: 25vh;
 }
 
 .paragrafo{
@@ -32,13 +33,16 @@
     padding: 10px;
     background-color: rgba(34,139,34, 1);
     width: 100vw;
-    height: 80vh;
+    height: 67vh;
 }
 
 .ficha{
     display: block;
-    height: 200px;
-   width: 300px;
-    margin: 2vh 25vw;
-    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.foto-haj{
+    height: 300px;
+   width: 400px;
 }
