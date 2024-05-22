@@ -1,0 +1,44 @@
+.titulo{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+    background-color: #4B0082;
+    color: #E6E6FA;
+    border: 2px solid black;
+    border-radius: 30%;
+    margin:3vh 25vw;
+    display: block;
+    
+}
+
+.recapitulando{
+    padding: 10px;
+    background-color: rgba(123,104,238, 2);
+    height: 20vh;
+}
+
+.paragrafo{
+    font-size: 1rem;
+    color: #E6E6FA;
+    padding: 5px;
+    margin: 5px;
+}
+
+.haj{
+    display: block;
+    padding: 10px;
+    background-color: rgba(34,139,34, 1);
+    width: 100vw;
+    height: 80vh;
+}
+
+.ficha{
+    display: block;
+    height: 200px;
+   width: 300px;
+    margin: 2vh 25vw;
+    box-sizing: border-box;
+}

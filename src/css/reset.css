@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    /** comentario     */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none; /** tira as bolinhas da lista*/
+}
+
+img{
+    max-width: 100%;
+}
+
+/** reset esta pronto, mas tambem existem resets de estilo ja prontos na internet*/
