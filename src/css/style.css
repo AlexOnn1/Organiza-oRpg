@@ -46,6 +46,7 @@ body {
 
 .paragrafo-com-imagem img{
     height: 15em;
+    width: 13em;
 }
 
 .haj{
@@ -64,8 +65,8 @@ body {
 }
 
 .foto-haj{
-
-width: 400px;
+height: 15em;
+width: 20em;
 }
 
 .nome-monstro{
@@ -73,6 +74,7 @@ width: 400px;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .lista-monstros{
@@ -80,16 +82,23 @@ width: 400px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
 }
 
 .monstro{
     width: 25em;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     gap: 20px;
-}
-
-.lista-monstros .monstro{
-    height: 100%;
     
 }
+img{
+    aspect-ratio: 1/1;
+}
+
+.lista-monstros .monstro a img:hover {
+      transform: scale(1.1);
+        transition: 0.5s;
+       box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+       border-radius: 50%;
+    }
