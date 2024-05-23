@@ -25,7 +25,7 @@ body {
 .recapitulando{
     padding: 10px;
     background-color: rgba(123,104,238, 0.1);
-    height: 10rem;
+    height: 30rem;
 }
 
 .paragrafo{
@@ -33,6 +33,19 @@ body {
     color: #E6E6FA;
     padding: 5px;
     margin: 5px;
+}
+
+.paragrafo-com-imagem{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    gap: 15px;
+    margin: 20px 10px;
+    color: #E6E6FA;
+}
+
+.paragrafo-com-imagem img{
+    height: 15em;
 }
 
 .haj{
