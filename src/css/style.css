@@ -2,12 +2,14 @@ body {
     background-image: url(../imagens/brasa.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
   }
 
 .titulo{
     font-size: 3rem;
     text-align: center;
-    height: 8vh;
+    height: 4rem;
+    color: #F8F9D7;
 }
 
 .subtitulo{
@@ -22,8 +24,8 @@ body {
 
 .recapitulando{
     padding: 10px;
-    background-color: rgba(123,104,238, 2);
-    height: 25vh;
+    background-color: rgba(123,104,238, 0.1);
+    height: 10rem;
 }
 
 .paragrafo{
@@ -35,19 +37,46 @@ body {
 
 .haj{
     display: block;
-    padding: 10px;
-    background-color: rgba(34,139,34, 1);
+    background-color: rgba(34,139,34, 0.1);
     width: 100vw;
-    height: 67vh;
+    height: 30rem;
+    padding: 10px;
 }
 
 .ficha{
     display: block;
-    padding: 10px;
     text-align: center;
+    margin: 3% 25%;
+    height: 10em;
 }
 
 .foto-haj{
-    height: 300px;
-   width: 400px;
+
+width: 400px;
+}
+
+.nome-monstro{
+    color: #903749;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.lista-monstros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.monstro{
+    width: 25em;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+
+.lista-monstros .monstro{
+    height: 100%;
+    
 }
