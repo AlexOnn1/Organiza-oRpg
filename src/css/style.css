@@ -6,7 +6,7 @@ body {
   }
 
 .titulo{
-    font-size: 3rem;
+    font-size: 2em;
     text-align: center;
     height: 4rem;
     color: #F8F9D7;
@@ -38,15 +38,34 @@ body {
 .paragrafo-com-imagem{
     display: flex;
     text-align: center;
-    font-size: x-large;
     gap: 15px;
     margin: 20px 10px;
     color: #E6E6FA;
 }
 
+.paragrafo-com-imagem p{
+    font-size: 1.5em;
+}
+
+/* A partir de 600px de largura, diminua o tamanho da fonte */
+@media (max-width: 600px) {
+    .paragrafo-com-imagem p {
+      font-size: 0.8em;
+    }
+  }
+  
+  /* A partir de 400px de largura, diminua ainda mais o tamanho da fonte */
+  @media (max-width: 400px) {
+    .paragrafo-com-imagem p {
+      font-size: 0.7em;
+    }
+  }
+
+
 .paragrafo-com-imagem img{
-    height: 15em;
-    width: 13em;
+    height: 20em;
+    width: 15em;
+    margin: 10px 0px;
 }
 
 .haj{
